@@ -1,0 +1,17 @@
+{
+  "name": "kafka-streams-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "streams.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafka-streams": "^5.0.0",
+    "kafkajs": "^2.2.4",
+    "node-rdkafka": "^2.15.0"
+  }
+}
