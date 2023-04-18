@@ -12,7 +12,7 @@ stream.to(kafkaTopicName);
     try {
         await stream.start();
 
-        await stream.writeToStream(JSON.stringify({ message: 'Some Text' }));
+        await stream.writeToStream(JSON.stringify({ message: 'Hello Valentyn' }));
 
         setTimeout(() => kafkaStreams.closeAll(), 500);
 

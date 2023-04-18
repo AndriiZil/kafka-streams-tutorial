@@ -14,7 +14,7 @@ const producer = kafka.producer({ createPartitioner: Partitioners.LegacyPartitio
         await producer.send({
             topic: 'test-topic',
             messages: [
-                { value: 'Hello KafkaJS user!' },
+                { value: 'Hello Valentyn' },
             ],
         });
 

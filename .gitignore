@@ -1,2 +1,5 @@
 # WebStorm
 .idea
+
+# NodeJS Kafka Streams
+/kafka-streams-nodejs/node_modules
