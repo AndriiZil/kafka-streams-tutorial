@@ -2,4 +2,5 @@
 .idea
 
 # NodeJS Kafka Streams
+node_modules
 /kafka-streams-nodejs/node_modules

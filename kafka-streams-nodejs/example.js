@@ -1,5 +1,5 @@
 const { KafkaStreams } = require('kafka-streams');
-const config = require('./options.json');
+const config = require('../options.json');
 
 const kafkaStreams = new KafkaStreams(config);
 
